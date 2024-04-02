@@ -47,7 +47,7 @@ module fulladdsub(a,b,cin,sum,carry,BO,DIFF); input a,b,cin; output sum,carry,BO
 assign sum = (a ^ b ^ cin); assign cout = (a & b) | (b & cin) | (a & cin); assign DIFF = a ^ b
 ^ cin; assign BO = (a & b) | ((a ^ b) & cin); endmodule
 
-**Output**\
+**Output**
 
 ![Screenshot 2024-04-02 144433](https://github.com/harinianand21/FULL_ADDER_SUBTRACTOR/assets/145742813/4237a379-a9cc-4e14-9d67-76047fa66099)
 
